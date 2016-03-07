@@ -1,0 +1,14 @@
+﻿{
+  "name": "My Job Name",
+  "server": "myserver.domain.org/solr",
+  "core": "my_core_name",
+  "importType": "delta-import",
+  "enabled": true,
+  "clean": true,
+  "commit": true,
+  "optimize" :  true,
+  //Start at 4PM EST on Jan 7, 2016
+  "recurrenceStart": 635877792000000000,
+  //Recur every 2 seconds
+  "recurrenceInterval": 2000
+}
