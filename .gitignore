@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/SolrScheduler.GUI/bin/Debug
+/SolrScheduler.GUI/obj/Debug
+*.ncrunchproject
+/SolrScheduler.Interfaces/obj
+/SolrScheduler.Objects/obj
+/SolrScheduler.Objects.Tests/obj/Debug
+*.user
+*.DotSettings
+*.ncrunchsolution
+/SolrScheduler.sln.GhostDoc.xml
