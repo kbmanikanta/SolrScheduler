@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrScheduler.GUI", "SolrSc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrScheduler.Objects.Tests", "SolrScheduler.Objects.Tests\SolrScheduler.Objects.Tests.csproj", "{C40C5E23-FE00-4352-929C-44040EE61706}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrScheduler.WindowsService", "SolrScheduler.WindowsService\SolrScheduler.WindowsService.csproj", "{94B50481-0794-4BA8-A342-E3D5CF9F099F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C40C5E23-FE00-4352-929C-44040EE61706}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C40C5E23-FE00-4352-929C-44040EE61706}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C40C5E23-FE00-4352-929C-44040EE61706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B50481-0794-4BA8-A342-E3D5CF9F099F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B50481-0794-4BA8-A342-E3D5CF9F099F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B50481-0794-4BA8-A342-E3D5CF9F099F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B50481-0794-4BA8-A342-E3D5CF9F099F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
