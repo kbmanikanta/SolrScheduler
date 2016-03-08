@@ -2,7 +2,7 @@
 SolrScheduler is a WPF application AND Windows Service which you can use to set Solr imports on a recurring basis. This works as of Solr 5.5.0 and works by sending RESTful commands to a specified Solr server instead of using DIH schedulers.
 
 ## License
-SolrScheduler is licenses under Apache 2.0. Go nuts.
+SolrScheduler is licensed under Apache 2.0. Go nuts.
 
 ## Prerequisites
 1. Microsoft .NET Framework 4.6.1 (https://www.microsoft.com/en-us/download/details.aspx?id=49981)
