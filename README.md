@@ -33,3 +33,12 @@ Simply specify your working directory in **app.config** and drop your configurat
 
 ## Why a Windows Service AND WPF Application?
 I like to use the graphical version of the application for debugging and testing my cores. This includes seeing how well they handle the stress and load of repeated imports. I use the service for production, where I don't want a GUI (or an account logged in to make use of it). The WPF application also lets you start and stop the updates of individual cores, instead of starting or stopping all updates across the board.
+
+## Installing the service
+1. Open the solution and target Release
+2. Build the solution
+3. Take the release files via Windows Explorer and copy them where you want
+4. Open a command prompt and type the following:
+```
+c:\windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe "C:\Path\To\Service.exe"
+```
