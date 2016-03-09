@@ -12,7 +12,7 @@ SolrScheduler is licensed under Apache 2.0. Go nuts.
 Once I started using Solr, I realized that there was really no good solution out there to perform delta (or full) updates without a big hassle. You can use CRON jobs or Windows Task Scheduler jobs; but these are a pain to maintain and log data for. 
 
 ## How does it work?
-Simply specify your working directory in **app.config** and drop your configuration files in that directory. The configuration files are simply and you can add as many as you want.
+Simply specify your working directory in **app.config** and drop your configuration files in that directory. The configuration files are simple and you can add as many as you want.
 
 ```
 {
