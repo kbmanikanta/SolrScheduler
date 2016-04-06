@@ -6,7 +6,7 @@ SolrScheduler is licensed under Apache 2.0. Go nuts.
 
 ## Prerequisites
 1. Microsoft .NET Framework 4.6.1 (https://www.microsoft.com/en-us/download/details.aspx?id=49981)
-2. Visual Studio 2013 or 2015
+2. Visual Studio 2015
 
 ## Why?
 Once I started using Solr, I realized that there was really no good solution out there to perform delta (or full) updates without a big hassle. You can use CRON jobs or Windows Task Scheduler jobs; but these are a pain to maintain and log data for. 
