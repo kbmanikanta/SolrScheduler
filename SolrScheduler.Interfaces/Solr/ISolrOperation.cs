@@ -25,6 +25,12 @@ namespace SolrScheduler.Interfaces.Solr {
         bool IsRunning { get; }
 
         /// <summary>
+        /// Inverse of IsRunning - primarily used to disable button in WPF grid
+        /// </summary>
+        /// <value><c>true</c> if this instance is stopped; otherwise, <c>true</c>.</value>
+        bool IsStopped { get; }
+
+        /// <summary>
         /// Starts this instance.
         /// </summary>
         void Start();
