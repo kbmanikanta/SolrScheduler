@@ -60,6 +60,18 @@ namespace SolrScheduler.Objects.Solr {
         /// <value><c>true</c> if this instance is running; otherwise, <c>false</c>.</value>
         public bool IsRunning { get; private set; }
 
+        /// <summary>
+        /// Inverse of IsRunning - primarily used to disable button in WPF grid
+        /// </summary>
+        /// <value><c>true</c> if this instance is stopped; otherwise, <c>true</c>.</value>
+        public bool IsStopped
+        {
+            get
+            {
+                return !IsRunning;
+            }
+        }
+
         #endregion
 
         /// <summary>

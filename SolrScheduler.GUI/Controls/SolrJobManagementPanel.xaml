@@ -33,14 +33,14 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <!-- ReSharper disable once Xaml.BindingWithContextNotResolved -->
-                            <Button Content="Start Job" CommandParameter="{Binding Mode=OneWay, Path=OperationModel.Name}" Click="StartJob_Click"></Button>
+                            <Button Content="Start Job" IsEnabled="{Binding Mode=OneWay, Path=IsStopped}" CommandParameter="{Binding Mode=OneWay, Path=OperationModel.Name}" Click="StartJob_Click"></Button>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
                 <DataGridTemplateColumn>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <Button Content="Stop Job" CommandParameter="{Binding Mode=OneWay, Path=OperationModel.Name}" Click="StopJob_Click"></Button>
+                            <Button Content="Stop Job" IsEnabled="{Binding Mode=OneWay, Path=IsRunning}" CommandParameter="{Binding Mode=OneWay, Path=OperationModel.Name}" Click="StopJob_Click"></Button>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
